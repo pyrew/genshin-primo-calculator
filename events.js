@@ -44,7 +44,7 @@ function createTable() {
         var row = table.insertRow(-1);
         ename = eventNames[n];
         row.insertCell(0).innerHTML = ename;
-        var gems = 0;
+        var gems = 1000;
         var start = "";
         var end = "";
         for (e in events) {
